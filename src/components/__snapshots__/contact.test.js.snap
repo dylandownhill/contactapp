@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders non-selected result 1`] = `
+<div
+  className="Contact-contact-0-1-1 Contact-contacttiny-0-1-3"
+>
+  <div
+    aria-label="First Name"
+  >
+    MyFirst
+  </div>
+  <div
+    aria-label="Last Name"
+  >
+    MyLast
+  </div>
+  <div
+    aria-label="Phone"
+  >
+    555-123-4567
+  </div>
+  <div
+    className="Contact-actionbuttons-0-1-5"
+  >
+    <div>
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Delete"
+      />
+    </div>
+    <div>
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Open"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`app renders selected result 1`] = `
+<div
+  className="Contact-contact-0-1-1 Contact-contactfull-0-1-2"
+>
+  <div>
+    <label
+      className="Contact-labelInput-0-1-6"
+      htmlFor="firstName2"
+    >
+      First Name: *
+    </label>
+    <input
+      id="firstName2"
+      name="firstName"
+      onChange={[Function]}
+      required="required"
+      type="text"
+      value="MyFirst"
+    />
+  </div>
+  <div>
+    <label
+      className="Contact-labelInput-0-1-6"
+      htmlFor="lastName2"
+    >
+      Last Name: *
+    </label>
+    <input
+      id="lastName2"
+      name="lastName"
+      onChange={[Function]}
+      required="required"
+      type="text"
+      value="MyLast"
+    />
+  </div>
+  <div>
+    <label
+      className="Contact-labelInput-0-1-6"
+      htmlFor="addressLine12"
+    >
+      Address:
+    </label>
+    <input
+      id="addressLine12"
+      name="addressLine1"
+      onChange={[Function]}
+      type="text"
+      value="Line 1"
+    />
+  </div>
+  <div>
+    <label
+      className="Contact-labelInput-0-1-6"
+      htmlFor="state2"
+    >
+      State:
+    </label>
+    <input
+      id="state2"
+      maxLength="2"
+      name="state"
+      onChange={[Function]}
+      type="text"
+      value="AZ"
+    />
+  </div>
+  <div>
+    <label
+      className="Contact-labelInput-0-1-6"
+      htmlFor="phone2"
+    >
+      Phone: *
+    </label>
+    <input
+      id="phone2"
+      name="phone"
+      onChange={[Function]}
+      required="required"
+      type="tel"
+      value="555-123-4567"
+    />
+  </div>
+  <div
+    className="Contact-requiredFields-0-1-7"
+  >
+    * - required fields.
+  </div>
+  <div
+    className="Contact-actionbuttons-0-1-5"
+  >
+    <div>
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Clear"
+      />
+    </div>
+    <div>
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Delete"
+      />
+    </div>
+    <div>
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Close"
+      />
+    </div>
+    <div>
+      <input
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+        value="Save"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`app runs 1`] = `
+<div
+  className="Contact-contact-0-1-1 Contact-contacttiny-0-1-3 Contact-contacttinyheader-0-1-4"
+>
+  <div>
+    First Name
+  </div>
+  <div>
+    LastName
+  </div>
+  <div>
+    Phone
+  </div>
+  <div
+    className="Contact-actionbuttons-0-1-5"
+  />
+</div>
+`;
